@@ -2,12 +2,18 @@
 
 
 ## General Information
-
-
+Control your mouse pointer with your finger gestures using your system's camera.
+You can do basically everything your physical mouse does using your hand and camera.
+Camera is accessed with opencv, image processed with mediapipe and the main control
+is done with autopy.
 
 ## Installation
 Create a virtual env, then
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all required packages (see requirements.txt)
+use the package manager [pip](https://pip.pypa.io/en/stable/) to install all required packages (see requirements.txt)
+- mediapipe
+- opencv
+- numpy
+- autopy
 
 ```bash
 pip install <package_name>
